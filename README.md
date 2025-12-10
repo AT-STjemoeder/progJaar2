@@ -15,20 +15,20 @@ ik heb geleerd hoe ik met randomizer met een m1 click een toren kan laten spawne
 
 
 
-##les 2
+## les 2
 ![actionevent](https://github.com/user-attachments/assets/db680336-92c7-434d-a456-584b142345c2)
 
 https://github.com/AT-STjemoeder/progJaar2/tree/main/Assets/scripts/M5/les%202
 
 ik heb hier met action events een blokje gemaakt dat als het tegen een balletje aan gaat de score omhoog gaat
 
-##les 3
+## les 3
 <img width="1919" height="586" alt="image" src="https://github.com/user-attachments/assets/0c4c8f08-23ba-4738-96ed-2de141a9a46a" />
 
 hier maak ik gebruik van een breakpoint om te debuggen
 
 
-##les 4
+## les 4
 ![space](https://github.com/user-attachments/assets/f49c13eb-c059-47c2-8893-4af1db155495)
 
 hier heb ik een bestaande "game" single response gemaakt en niet DRY
