@@ -6,3 +6,5 @@ ik heb hier een random ballen spawner gemaakt met random kleuren en locatie en f
 ![tower](https://github.com/user-attachments/assets/4f62b866-666f-4fed-88d2-dc6f6adb596f)
 https://github.com/AT-STjemoeder/progJaar2/blob/main/Assets/scripts/les%201/tower.cs
 ik heb geleerd hoe ik met randomizer met een m1 click een toren kan laten spawnen op een verschillende plek en verschillende grotes
+
+![actionevent](https://github.com/user-attachments/assets/db680336-92c7-434d-a456-584b142345c2)
