@@ -16,6 +16,8 @@ ik heb geleerd hoe ik met randomizer met een m1 click een toren kan laten spawne
 ##les 2
 ![actionevent](https://github.com/user-attachments/assets/db680336-92c7-434d-a456-584b142345c2)
 
+https://github.com/AT-STjemoeder/progJaar2/tree/main/Assets/scripts/M5/les%202
+
 ik heb hier met action events een blokje gemaakt dat als het tegen een balletje aan gaat de score omhoog gaat
 
 ##les 3
