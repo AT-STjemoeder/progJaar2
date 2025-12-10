@@ -57,5 +57,59 @@ class PlayerLegdeGrab{
     +float rayStartOffset
     +float ray1Height
     +float ray2Height
-    
+    +float rayLength
+    +LayerMask climbableLayer
+    +Vector 3 grabOffset
+    +float grabSpeed
+    -PlayerCore core
+    -bool controlsEnabled
+    -Checkforledge()
+    -IEnumrator LedgeClimbRoutine()
+    -float GetDirectionInput()
+    -OnDrawGizmos()
 }
+class PlayerJump{
+    +float jumpForce
+    -float extraJumpTime
+    -float _jumpTimeCounter
+    -Playermove move
+    -PlayerCore core
+}
+class PlayerMove{
+    +float moveSpeed
+    +float lastInput
+    -PlayerCore core
+    -SpriteRenderer spriteRenderer
+    -void HandleAnimations()
+}
+class PlayerCore{
+    +LayerMask groundLayer
+    +float groundRayOffset
+    +float groundRayLength
+    +bool IsGrounded()
+}
+class CameraFollow{
+    -Transform target
+    -float smoothSpeed
+    -Vector3 offset
+    -LateUpdate()
+}
+class EnemyFollow{
+    -float moveSpeed
+    -Transform
+    Startfollow()
+}
+
+class EnemyDetect{
+    -string playertag
+    -Enemyfollow followScript
+    -OnTriggerEnter()
+}
+PlayerMove <|-- PlayerJump
+PlayerCore <-- PlayerJump
+PlayerCore <--PlayerMove
+PlayerCore <--PlayerLegdeGrab
+EnemyFollow <-- EnemyDetect
+PlayerCombat <-- Enemy
+
+
