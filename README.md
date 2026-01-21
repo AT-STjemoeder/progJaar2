@@ -116,11 +116,19 @@ PlayerCore <--PlayerLegdeGrab
 EnemyFollow <-- EnemyDetect
 PlayerCombat <-- Enemy
 ```
+hier heb ik mermaid leren te gebruiken zodat het makkelijker te begrijpen is voor de mensen die het niet hebben gecodeerd en het willen begrijpen.
 ## les 3
 
 ![scriptebleObject](https://github.com/user-attachments/assets/5b23ea17-f6b9-42ae-85b1-b9ccd22fb311)
 
-Hier hebben we geleerd om verschillende structs te gebruiken in unity
+Hier hebben we geleerd om verschillende structs te gebruiken in unity zoals enums en scriptable objects en ook het verschil tussen een struct en een class.
+
+## les 4
+
+![delegates](https://github.com/user-attachments/assets/cbd27462-7bf9-4408-80b3-db7b9ee88f4f)
+
+hier heb ik gebruik gemaakt van delegate's zodat ik de score kon aanpassen in realtime op het canvas.
+
 
 ## les 7
 ``` Csharp
